@@ -1,0 +1,11 @@
+<p>event-binding2 works!</p>
+<!-- $event => It is special variable given by angular 
+If yyou want current dom element information --> 
+
+<button (click)="OnEventClick($event)" value="Event Occure">Click</button> <br><br>
+
+<input #myinput type="text" placeholder="Enter the Name.."><br><br>
+<button (click)="onTemplate(myinput)"> send </button><br><br>
+
+<input #myinput type="text" placeholder="Enter the Name.."><br><br>
+<button (click)="onTemplate1($event)"> send </button>

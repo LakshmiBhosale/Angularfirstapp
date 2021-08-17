@@ -1,0 +1,11 @@
+<p>class-binding works!</p>
+<!-- u can set your or inbuild css class can be set dynamicallu -->
+
+<h2 [class]="myclass">Class Binging</h2>
+<h2 [class.danger]="rating<4">class Binding Using Condition</h2>
+<h2 [class.warning]="rating>4">Class Binding Using Condition</h2>
+<!-- ngClass=> Is is used to ser multiple Css -->
+<div [ngClass]="obj">
+    <h2> Apply ngClass directive</h2>
+
+</div>
